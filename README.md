@@ -8,7 +8,7 @@ Website simpan Hutang Piutang dikembangkan menggunakan web framework Flask
 3. [Download Rar projects](https://github.com/AnandaRauf/Website-HutangPiutang/tree/master)
 4. Extract file Rar Projects
 5. Install requirements: pip install -r requirements.txt
-6. Open Command Prompt(CMD),and then typing cd Hutang/Env/Scripts
+6. Open Command Prompt(CMD),and then typing cd Hutang_Env/Scripts
 7. typing activate.bat
 8. typing cd ..
 9. typing cd ..
