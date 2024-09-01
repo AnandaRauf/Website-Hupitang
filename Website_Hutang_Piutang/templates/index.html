@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tambah Hutang</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Tambah Hutang</h1>
+    <form action="{{ url_for('tambah_hutang') }}" method="POST">
+        <label for="nama_penghutang">Nama Penghutang:</label>
+        <input type="text" id="nama_penghutang" name="nama_penghutang" required>
+        
+        <label for="jumlah_uang">Jumlah Uang yang Dipinjam:</label>
+        <input type="number" id="jumlah_uang" name="jumlah_uang" step="0.01" required>
+        
+        <label for="nama_pemberi_hutang">Nama Pemberi Hutang:</label>
+        <input type="text" id="nama_pemberi_hutang" name="nama_pemberi_hutang" required>
+        
+        <label for="status_hutang">Status Hutang:</label>
+        <select id="status_hutang" name="status_hutang">
+            <option value="Lunas">Lunas</option>
+            <option value="Belum Lunas">Belum Lunas</option>
+        </select>
+        
+        <input type="submit" value="Simpan">
+    </form>
+</body>
+</html>
