@@ -27,16 +27,17 @@ To view the list of accounts payable and receivable: http://127.0.0.1:5000/hutan
 # Cara jalankan web serve
 1. [Download Python](https://python.org/downloads)
 2. Setting ENvirontment Variable Path: example: C:\Python388\Scripts
-3. [Download Rar projects](https://github.com/AnandaRauf/Website-HutangPiutang/tree/master)
-4. Extract file Rar Projects
-5. [Download Laragon](https://laragon.org/download/)
-6. Buat database di Laragon
-7. Install requirements: ketik pip install -r requirements.txt
-8. Buka Command Prompt(CMD),dan kemudian ketik cd Hutang/Env/Scripts
-9. ketik activate.bat di CMD
-10. ketik cd .. di cmd
+3. [Download Rar projects Web Flask](https://github.com/AnandaRauf/Website-HutangPiutang/tree/Flask)
+4. [Download Rar projects Web Flask](https://github.com/AnandaRauf/Website-HutangPiutang/tree/Dot-Net-Flask)
+5. Extract file Rar Projects
+6. [Download Laragon](https://laragon.org/download/)
+7. Buat database di Laragon
+8. Install requirements: ketik pip install -r requirements.txt
+9. Buka Command Prompt(CMD),dan kemudian ketik cd Hutang/Env/Scripts
+10. ketik activate.bat di CMD
 11. ketik cd .. di cmd
-12. ketik flask run di cmd
+12. ketik cd .. di cmd
+13. ketik flask run di cmd
 
 Web server running: http://127.0.0.1:5000/
 
